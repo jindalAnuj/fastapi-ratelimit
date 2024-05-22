@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-ratelimit"
+version = "0.1.0"
+description = ""
+authors = ["Anuj Jindal <31108317+jindalAnuj@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+fastapi-limiter = "^0.1.6"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
